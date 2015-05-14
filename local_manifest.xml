@@ -197,7 +197,7 @@
   <!-- vendor -->
   <remove-project name="platform/vendor/qcom-opensource/fm" />
 
-  <project path="vendor/qcom-opensource/fm" name="mitwo-dev/vendor_qcom-opensource_fm" remote="github" revision="lollipop" />
+  <project path="vendor/qcom-opensource/fm" name="mitwo-dev/vendor_qcom-opensource_fm" remote="github" />
 
   <!-- build -->
   <remove-project name="platform/build" />
