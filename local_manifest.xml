@@ -22,6 +22,8 @@
   <remove-project name="device/htc/flounder" />
   <remove-project name="device/htc/flounder-kernel" />
   <remove-project name="device/lge/mako-kernel" />
+  <remove-project name="device/qcom/common" />
+  <remove-project name="device/qcom/msm8960" />
   <remove-project name="device/samsung/manta" />
   <!-- kernel,bootloader -->
   <remove-project name="kernel/lk" />
@@ -102,10 +104,6 @@
 
   <!-- missing dependency -->
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" /> 
-
-  <!-- to prevent copying extra makefiles -->
-  <remove-project name="device/qcom/common" />
-  <project name="device/qcom/common" />
 
   <!-- device -->
   <project groups="pdk" name="mitwo-dev/android_device_xiaomi_aries" path="device/xiaomi/aries" remote="github" />
