@@ -121,12 +121,12 @@
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/bt" />
-  <remove-project name="platform/hardware/libhardware_legacy" />
+  <remove-project name="platform/hardware/qcom/wlan" />
 
   <project groups="qcom,default" path="hardware/qcom/audio" name="mitwo-dev/platform_hardware_qcom_audio" remote="github" />
   <project groups="qcom,default" path="hardware/qcom/display" name="mitwo-dev/platform_hardware_qcom_display" remote="github" />
   <project groups="qcom,default" path="hardware/qcom/bt" name="mitwo-dev/platform_hardware_qcom_bt" remote="github" />
-  <project groups="pdk" path="hardware/libhardware_legacy" name="mitwo-dev/platform_hardware_libhardware_legacy" remote="github" />
+  <project groups="qcom,default" path="hardware/qcom/wlan" name="Cyanogenmod/android_hardware_qcom_wlan" remote="github" revision="cm-12.1" />
 
   <!-- framework -->
   <remove-project name="platform/frameworks/av" />
